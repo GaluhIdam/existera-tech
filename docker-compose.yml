@@ -4,7 +4,7 @@ services:
   react-app:
     build:
       context: .
-      dockerfile: react-app/Dockerfile
+      dockerfile: existera-tech/Dockerfile
     container_name: existera-tech
     restart: unless-stopped
     ports:
